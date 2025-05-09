@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 700px;
+  height: 600px;
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 20px 20px 50px gray;
+}
+
+form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+#submitBtn, #typeBtn {
+  margin-top: 20px;
+}
+
+#typeLabel {
+  margin-top: 50px;
+}
+
+#pokemonDisplay {
+  margin-top: 20px;
+}
